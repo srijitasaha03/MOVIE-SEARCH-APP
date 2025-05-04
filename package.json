@@ -1,0 +1,36 @@
+{
+  "name": "movie-search-app",
+  "version": "1.0.0",
+  "description": "A responsive movie search app that fetches movie details from the OMDB API.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start"
+  },
+  "keywords": [
+    "react",
+    "movie",
+    "search",
+    "app"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "homepage": "http://.",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
